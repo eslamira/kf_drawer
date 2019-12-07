@@ -14,7 +14,7 @@ class KFDrawerController {
 }
 
 class KFDrawerContent extends StatefulWidget {
-  Function onMenuPressed;
+  final Function onMenuPressed;
 
   @override
   State<StatefulWidget> createState() {
